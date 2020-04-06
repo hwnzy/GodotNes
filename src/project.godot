@@ -1,0 +1,47 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "Character",
+"language": "GDScript",
+"path": "res://test.gd"
+}, {
+"base": "Reference",
+"class": "Cpu",
+"language": "GDScript",
+"path": "res://cpu.gd"
+}, {
+"base": "Reference",
+"class": "Opdata",
+"language": "GDScript",
+"path": "res://OpData.gd"
+}, {
+"base": "Control",
+"class": "rom",
+"language": "GDScript",
+"path": "res://rom.gd"
+} ]
+_global_script_class_icons={
+"Character": "",
+"Cpu": "",
+"Opdata": "",
+"rom": ""
+}
+
+[application]
+
+config/name="src"
+run/main_scene="res://NesRoot.tscn"
+config/icon="res://icon.png"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
