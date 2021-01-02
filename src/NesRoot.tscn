@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://rom.gd" type="Script" id=1]
+[ext_resource path="res://nes.gd" type="Script" id=1]
 
 [node name="NesRoot" type="Control"]
 anchor_right = 1.0
